@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="inner">
+            <h1><a href="/" style>
+                                         DJAM
+                                        </a></h1>
+        </div>
+        <div class="util">
+            <div class="search on">
+                <input type="text" name="search" value placeholder="검색내용을 입력하세요"
+                    onkeypress="if (event.keyCode == 13) { try{window.location.href='/search/'+looseURIEncode(document.getElementsByName('search')[0].value);document.getElementsByName('search')[0].value='';return false;}catch(e){} }">
+                <button type="submit"
+                    onclick="try{window.location.href='/search/'+looseURIEncode(document.getElementsByName('search')[0].value);document.getElementsByName('search')[0].value='';return false;}catch(e){}">검색</button>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div id="contents">본문 영역입니다.</div>
+        <div id="sidebar">사이드바 영역입니다.</div>
+    </div>
+
+    <div id="footer"> 푸터 영역입니다.</div>
+</body>
+
+</html>
