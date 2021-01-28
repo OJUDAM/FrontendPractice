@@ -11,9 +11,7 @@
 <body>
     <div id="header">
         <div class="inner">
-            <h1><a href="/" style>
-                                         DJAM
-                                        </a></h1>
+            <h1><a href="/" style> DJAM</a></h1>
         </div>
         <div class="util">
             <div class="search on">
@@ -21,6 +19,9 @@
                     onkeypress="if (event.keyCode == 13) { try{window.location.href='/search/'+looseURIEncode(document.getElementsByName('search')[0].value);document.getElementsByName('search')[0].value='';return false;}catch(e){} }">
                 <button type="submit"
                     onclick="try{window.location.href='/search/'+looseURIEncode(document.getElementsByName('search')[0].value);document.getElementsByName('search')[0].value='';return false;}catch(e){}">검색</button>
+            </div>
+            <div class="Login">
+                <a href="/">Login</a>
             </div>
         </div>
     </div>

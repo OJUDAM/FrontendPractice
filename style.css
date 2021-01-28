@@ -133,7 +133,7 @@ a:active {
 /* header */
 #header {
     border-bottom: 1px solid #eee;
-    padding-left: 7rem;
+    padding-left: 5rem;
 }
 
 #header .inner {
@@ -168,6 +168,7 @@ a:active {
 #header .util{
     position: absolute;
     top: 24px;
+    padding-right: 3rem;
     right: 0;
 }
 
@@ -250,6 +251,17 @@ a:active {
     grid-template-columns: 3fr 1fr;
 }
 
+#header .util .Login{
+    position: relative;
+    float: left;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-left: 12px;
+    display: block;
+    width: 45px;
+    height: 30px;
+    text-align: center;
+}
 #main #contents {
     min-height: 500px;
     background-color: #00ffff;
