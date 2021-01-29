@@ -266,8 +266,28 @@ a:active {
     min-height: 500px;
     background-color: #00ffff;
     margin-right: 10px;
+    padding: 20px;
 }
 
+#main #contents #container{
+    background-color: #feb;
+    padding: 5px;
+    height: 30rem;
+    border: 1px solid #eee;
+}
+
+#main #contents #container #card{
+    background-color:#fff;
+    height: 10rem;
+    width: 7rem;
+    padding: 5px;
+    border: 1px solid #eee;
+    float: left;
+    margin-top: 0.7rem;
+    margin-bottom: 0.9rem;
+    margin-right: 0.9rem;
+    margin-left: 0.7rem;
+}
 #main #sidebar {
     min-height: 500px;
     background-color: #00bfff;
